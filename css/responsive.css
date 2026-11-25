@@ -1,0 +1,132 @@
+@media (max-width: 899px) {
+  .hero__visual {
+    order: -1;
+    width: min(72%, 300px);
+  }
+
+  .hero__text {
+    max-width: none;
+  }
+
+  .cta-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-head {
+    margin-bottom: 1.75rem;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+  }
+
+  .accordion__trigger {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .accordion__content {
+    padding: 0 1rem 1rem;
+  }
+
+  .course-list li {
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .course-list__meta {
+    text-align: left;
+  }
+}
+
+@media (max-width: 560px) {
+  :root {
+    --nav-h: var(--nav-h-mobile);
+  }
+
+  .hero {
+    padding-block: 2.75rem 3.25rem;
+  }
+
+  .hero__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero__actions .btn {
+    width: 100%;
+  }
+
+  .navbar__brand img {
+    height: 38px;
+  }
+
+  .grid--info {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.625rem;
+  }
+
+  .info-card {
+    padding: 0.8rem 0.9rem;
+  }
+
+  .info-card dd {
+    font-size: 0.92rem;
+  }
+
+  .grid--areas {
+    grid-template-columns: 1fr;
+  }
+
+  .material-card__actions {
+    flex-direction: column;
+  }
+
+  .material-card__actions .btn {
+    width: 100%;
+  }
+
+  .pull-quote {
+    text-align: left;
+  }
+}
+
+@media (max-width: 380px) {
+  .grid--info {
+    grid-template-columns: 1fr;
+  }
+
+  .navbar__brand-text strong {
+    font-size: 0.88rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  :root {
+    --container: 1240px;
+  }
+}
+
+@media print {
+
+  .navbar,
+  .hero__actions,
+  .skip-link,
+  .instagram {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .section--dark,
+  .instagram {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}

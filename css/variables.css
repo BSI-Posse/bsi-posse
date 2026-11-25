@@ -1,0 +1,50 @@
+:root {
+
+  --c-primary: #6d28d9;
+  --c-primary-dark: #4c1d95;
+  --c-primary-deep: #2e1065;
+  --c-accent: #a855f7;
+
+  --c-bg: #f7f7fa;
+  --c-surface: #ffffff;
+  --c-line: #e5e7eb;
+  --c-muted: #9ca3af;
+  --c-label: #5f6875;
+
+  --c-text: #17171c;
+  --c-text-soft: #4b4b55;
+  --c-on-dark: #f7f7fa;
+  --c-on-dark-soft: #a5a5b2;
+
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+
+  --fs-display: clamp(2.15rem, 1.4rem + 3.2vw, 3.5rem);
+  --fs-h2: clamp(1.7rem, 1.25rem + 2.1vw, 2.6rem);
+  --fs-h3: clamp(1.15rem, 1.05rem + 0.4vw, 1.35rem);
+  --fs-lead: clamp(1rem, 0.95rem + 0.35vw, 1.15rem);
+  --fs-body: 1rem;
+  --fs-small: 0.9rem;
+  --fs-xs: 0.8rem;
+
+  --container: 1160px;
+  --gutter: clamp(1.25rem, 4vw, 2rem);
+  --section-y: clamp(4rem, 3rem + 4vw, 7rem);
+  --nav-h: 4.75rem;
+  --nav-h-mobile: 4rem;
+
+  --r-sm: 6px;
+  --r-md: 12px;
+  --r-lg: 16px;
+
+  --shadow-sm: 0 1px 2px rgba(23, 23, 28, 0.06);
+  --shadow-md: 0 10px 30px -18px rgba(23, 23, 28, 0.35);
+  --shadow-nav: 0 1px 0 rgba(23, 23, 28, 0.08);
+  --shadow-lift: 0 16px 32px -20px rgba(23, 23, 28, 0.4);
+  --shadow-btn: 0 10px 22px -14px rgba(109, 40, 217, 0.55);
+
+  --t-fast: 150ms ease;
+  --t-med: 280ms ease;
+
+  --focus-ring: 0 0 0 3px rgba(168, 85, 247, 0.55);
+}
